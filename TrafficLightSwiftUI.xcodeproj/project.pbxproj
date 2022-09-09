@@ -11,6 +11,8 @@
 		CE8A09BC28CB3CAF00ACE575 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A09BB28CB3CAF00ACE575 /* ContentView.swift */; };
 		CE8A09BE28CB3CB400ACE575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A09BD28CB3CB400ACE575 /* Assets.xcassets */; };
 		CE8A09C128CB3CB400ACE575 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A09C028CB3CB400ACE575 /* Preview Assets.xcassets */; };
+		CE8A09C828CB3D1400ACE575 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A09C728CB3D1400ACE575 /* CircleView.swift */; };
+		CE8A09CA28CB3DFD00ACE575 /* LighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A09C928CB3DFD00ACE575 /* LighterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CE8A09BB28CB3CAF00ACE575 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE8A09BD28CB3CB400ACE575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8A09C028CB3CB400ACE575 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8A09C728CB3D1400ACE575 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		CE8A09C928CB3DFD00ACE575 /* LighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				CE8A09B928CB3CAF00ACE575 /* TrafficLightSwiftUIApp.swift */,
+				CE8A09C728CB3D1400ACE575 /* CircleView.swift */,
+				CE8A09C928CB3DFD00ACE575 /* LighterView.swift */,
 				CE8A09BB28CB3CAF00ACE575 /* ContentView.swift */,
 				CE8A09BD28CB3CB400ACE575 /* Assets.xcassets */,
 				CE8A09BF28CB3CB400ACE575 /* Preview Content */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8A09C828CB3D1400ACE575 /* CircleView.swift in Sources */,
 				CE8A09BC28CB3CAF00ACE575 /* ContentView.swift in Sources */,
+				CE8A09CA28CB3DFD00ACE575 /* LighterView.swift in Sources */,
 				CE8A09BA28CB3CAF00ACE575 /* TrafficLightSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
